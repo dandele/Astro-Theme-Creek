@@ -95,7 +95,7 @@ module.exports = {
         xl: ".75rem",
       },
       colors: {
-        black: "#12151E",
+        black: "#101820",
         "hot-pink": "#fd2d78",
         "yellow": "#FEE715",
       },
