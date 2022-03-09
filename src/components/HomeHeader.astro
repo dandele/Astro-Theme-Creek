@@ -6,12 +6,12 @@ description: string;
 const { title, description } = Astro.props;
 ---
 
-<header class="mx-auto max-w-xl text-center content">
-<div>
-  <h1 class="mb-4" data-test="header-title">{title}</h1>
-  <p data-test="header-description">{description}</p>
-</div>
-<div>  
-  <h1 class="mb-4" data-test="header-title">{title}</h1>
-</div>
+<header class="mx-auto max-w-xl text-center content flex flex-row">
+  <div>
+    <h1 class="mb-4" data-test="header-title">{title}</h1>
+    <p data-test="header-description">{description}</p>
+  </div>
+  <div>  
+    <h1 class="mb-4" data-test="header-title">{title}</h1>
+  </div>
 </header>
