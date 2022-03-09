@@ -11,9 +11,9 @@ const {title, description, date, hero, youtube} = content;
     <BaseHead title={title} description={description} />
   </head>
 
-  <body>
+  <body class="bg-black text-yellow">
     <Nav />
-    <main class="py-12 lg:py-20">
+    <main class="py-12 lg:py-20 bg-black">
       <BlogPost title={title} hero={hero} date={date} youtube={youtube} >
         <slot />
       </BlogPost>
