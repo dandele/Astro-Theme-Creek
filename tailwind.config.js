@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     borderColor: (theme) => ({
       ...theme("colors"),
-      default: theme("colors.black", "currentColor"),
+      default: theme("colors.yellow", "currentColor"),
     }),
     rotate: {
       "-180": "-180deg",
@@ -97,6 +97,7 @@ module.exports = {
       colors: {
         black: "#12151E",
         "hot-pink": "#fd2d78",
+        yellow: "##FEE715",
       },
       fontFamily: {
         display: ["Londrina Solid", "sans-serif"],
