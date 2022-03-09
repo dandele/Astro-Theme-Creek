@@ -6,12 +6,12 @@ description: string;
 const { title, description } = Astro.props;
 ---
 
-<header class="mx-auto max-w-xl text-center content flex flex-row">
+<header class="mx-auto max-w-xl text-left content flex flex-row">
   <div>
     <h1 class="mb-4" data-test="header-title">{title}</h1>
     <p data-test="header-description">{description}</p>
   </div>
   <div>  
-  <img class="squiggle rounded-xl mx-auto" style="min-width: 80%;" loading="lazy" src="public/images/Golang-Basics.png" alt={title} src= alt={post.title} width="360" height="192">
+  <img class="squiggle rounded-xl mx-auto" style="min-width: 80%;" loading="lazy" src="/images/javascript-logo-banner.jpg" alt={title} src= alt={post.title} width="360" height="192">
   </div>
 </header>
