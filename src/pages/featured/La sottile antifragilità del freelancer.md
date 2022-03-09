@@ -3,7 +3,7 @@ title: "La sottile antifragilità del freelancer"
 date: "2020-01-28"
 slug: "antifragilità-freelancer"
 description: "cosa succede quando la propria passione non coincide con il trovare il famigerato posto fisso e non ci ritroviamo nella fortunata posizione di Checco Zalone nel film “Quo vado?”?"
-hero: "/images/web-internet.jpeg"
+hero: "/images/web-internet.jpg"
 tags: ["javascript"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
