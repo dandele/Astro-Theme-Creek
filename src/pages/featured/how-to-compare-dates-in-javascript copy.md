@@ -1,68 +1,39 @@
 ---
-title: "How to compare dates in JavaScript"
+title: "Piacere di conoscerti"
 date: "2020-01-28"
-slug: "how-to-compare-dates-in-javascript"
-description: "How to compare dates in JavaScript natively using the Date Object, without using any third-party libraries."
-hero: "/images/javascript-logo-banner.jpg"
+slug: "piacere-di-conoscerti"
+description: "Piacere di conoscerti, sono Daniele D'Amico"
+hero: "/images/hello.svg"
 tags: ["javascript"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
 
-Working with dates in JavaScript can be tricky to say the least. Recently I needed to compare two dates with one another to see which was greater than, less than, etc.
+# Piacere di conoscerti, sono Daniele D'Amico
 
-In my particular use case, I was using a date-picker that was returning a string like `01/28/2020`. I needed to see if this date was `>=` to the current day.
+Mi è sempre piaciuto 𝐜𝐨𝐬𝐭𝐫𝐮𝐢𝐫𝐞 𝐜𝐨𝐬𝐞 𝐝𝐢𝐠𝐢𝐭𝐚𝐥𝐢 e poi scomporle, analizzarle per comprenderle fino all'elemento più piccolo.
 
-The first thing I needed to do was convert this string into a JavaScript Date Object.
+Se c'è un tratto comune nella mia carriera direi che è proprio questo della costruzione e comprensione di cose.
 
-```js
-const date: new Date("01/28/2020");
-console.log(date);
-// Tue Jan 28 2020 00:00:00 GMT-0500 (Eastern Standard Time)
-```
+Con il senno di poi, risulta evidente in tutte le mie attività.
 
-Then, compare this date with the current day:
+1️⃣ Fin da quando a 18 anni ho creato, con alcuni miei amici, il 𝐦𝐢𝐨 𝐩𝐫𝐢𝐦𝐨 𝐛𝐥𝐨𝐠 e l'ho fatto crescere fino ad avere un certo seguito.
 
-```js
-const compareDate = new Date("01/28/2020");
-const today = new Date();
-console.log(compareDate >= today);
-// false
-```
+2️⃣ Poi all'università, prima con la 𝐥𝐚𝐮𝐫𝐞𝐚 𝐢𝐧 𝐒𝐜𝐢𝐞𝐧𝐳𝐞 𝐝𝐞𝐥𝐥𝐚 𝐂𝐨𝐦𝐮𝐧𝐢𝐜𝐚𝐳𝐢𝐨𝐧𝐞 𝐞 𝐩𝐨𝐢 𝐜𝐨𝐧 𝐪𝐮𝐞𝐥𝐥𝐚 𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐬𝐭𝐢𝐜𝐚 𝐢𝐧 𝐂𝐨𝐫𝐩𝐨𝐫𝐚𝐭𝐞 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 𝐚𝐧𝐝 𝐌𝐞𝐝𝐢𝐚, scomponevo ogni concetto nei suoi elementi essenziali, li comprendevo appieno e poi li riutilizzavo, come lettere di un alfabeto, per formulare ragionamenti.
 
-The issue is that even though the dates are the same, the times are not.
+3️⃣ E nel mondo del 𝐥𝐚𝐯𝐨𝐫𝐨, prima come 𝐜𝐨𝐧𝐬𝐮𝐥𝐞𝐧𝐭𝐞 𝐟𝐫𝐞𝐞𝐥𝐚𝐧𝐜𝐞𝐫 𝐝𝐢 𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐌𝐚𝐫𝐤𝐞𝐭𝐢𝐧𝐠 𝐞 𝐩𝐨𝐢 𝐝𝐢 𝐔𝐗 𝐃𝐞𝐬𝐢𝐠𝐧 (con focus sulla user research) aiutando alcuni business ad avviare la loro presenza nel mondo digitale e, dopo aver abbandonato il mondo della consulenza, 𝐨𝐠𝐠𝐢 𝐧𝐞𝐥 𝐫𝐮𝐨𝐥𝐨 𝐝𝐢 𝐏𝐫𝐨𝐝𝐮𝐜𝐭 𝐃𝐞𝐬𝐢𝐠𝐧𝐞𝐫 𝐩𝐞𝐫 𝐮𝐧𝐚 𝐬𝐭𝐚𝐫𝐭𝐮𝐩 𝐝𝐢 𝐂𝐲𝐛𝐞𝐫 𝐒𝐞𝐜𝐮𝐫𝐢𝐭𝐲 che aiuto nel creare i nuovi sviluppi dei suoi prodotti digitali. Esperienza che mi ha portato, negli ultimi mesi, ad affacciarmi al mondo del product management, grazie anche al 𝐌𝐚𝐬𝐭𝐞𝐫 𝐢𝐧 𝐏𝐫𝐨𝐝𝐮𝐜𝐭 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐝𝐢 𝐄𝐝𝐠𝐞𝐦𝐨𝐧𝐲.
 
-```js
-const compareDate = new Date("01/28/2020");
-const today = new Date();
-console.log("compareDate: ", compareDate);
-console.log("today: ", today);
-// compareDate:  Tue Jan 28 2020 00:00:00 GMT-0500 (Eastern Standard Time)
-// today:  Tue Jan 28 2020 21:33:27 GMT-0500 (Eastern Standard Time)
-```
+4️⃣ Infine nel 𝐭𝐞𝐦𝐩𝐨 𝐥𝐢𝐛𝐞𝐫𝐨, che passo in una miriade di attività solo sconnesse in apparenza (il fil rouge è evidente solo a chi sa guardare bene):
 
-Notice how `compareDate` has all zero's for time. The difference in time is the reason why this comparison fails. To fix this, we need to create the current day without time. We do this by instantiating a new JS Date object by individually passing in the year, month and day.
+🟢 usare 𝐍𝐨𝐭𝐢𝐨𝐧 non solo per prendere appunti ma per creare 𝐚𝐮𝐭𝐨𝐦𝐚𝐳𝐢𝐨𝐧𝐢 𝐞 𝐦𝐢𝐧𝐢-𝐩𝐫𝐨𝐝𝐨𝐭𝐭𝐢 𝐜𝐡𝐞 𝐦𝐢 𝐦𝐢𝐠𝐥𝐢𝐨𝐫𝐚𝐧𝐨 𝐥𝐚 𝐯𝐢𝐭𝐚;
 
-```js
-const todayWithoutTime = new Date(
-  new Date().getFullYear(),
-  new Date().getMonth(),
-  new Date().getDate()
-);
-console.log("todayWithoutTime: ", todayWithoutTime);
-// todayWithoutTime:  Tue Jan 28 2020 00:00:00 GMT-0500 (Eastern Standard Time)
-```
+🟠 creare siti web con piattaforme come 𝐍𝐞𝐭𝐥𝐢𝐟𝐲 e framework come 𝐇𝐮𝐠𝐨, solo per il gusto di comprenderli;
 
-So let's try our comparison again.
+🛡 leggere libri e newsletter a tema 𝐩𝐫𝐨𝐝𝐮𝐜𝐭 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐞 𝐬𝐭𝐚𝐫𝐭𝐮𝐩 per poi rilassarmi la sera leggendo qualche romanzo fantasy;
 
-```js
-const compareDate = new Date("01/28/2020");
-const todayWithoutTime = new Date(
-  new Date().getFullYear(),
-  new Date().getMonth(),
-  new Date().getDate()
-);
-console.log(compareDate >= todayWithoutTime);
-// true
-```
+🎧 ascoltare 𝐩𝐨𝐝𝐜𝐚𝐬𝐭;
 
-That's it. Just remember that when comparing dates in JavaScript it is vital to factor in the time. 😎
+🖱️ utilizzare 𝐅𝐢𝐠𝐦𝐚 per creare 𝐌𝐕𝐏 di nuove idee di business.
+
+Se ti interessa uno di questi argomenti o vuoi scrivermi per altre questioni, mandami un messaggio qui su Linkedin, oppure scrivimi una mail a 👉 dandele93@gmail.com
+
+Se invece vuoi leggere un pò di cose, ti consiglio di 𝐥𝐞𝐠𝐠𝐞𝐫𝐞 𝐢 𝐦𝐢𝐞𝐢 𝐩𝐨𝐬𝐭, non dico che ti cambieranno la vita ma magari possono essere interessanti!
