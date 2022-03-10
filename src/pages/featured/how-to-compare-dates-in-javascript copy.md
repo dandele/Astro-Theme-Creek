@@ -4,7 +4,7 @@ date: "2020-01-28"
 slug: "piacere-di-conoscerti"
 description: "cosa succede quando la propria passione non coincide con il trovare il famigerato posto fisso e non ci ritroviamo nella fortunata posizione di Checco Zalone nel film “Quo vado?"
 hero: "/images/hello.svg"
-tags: ["javascript"]
+tags: ["starter"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
 
