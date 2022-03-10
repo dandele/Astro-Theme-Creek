@@ -7,7 +7,7 @@ import Footer from '../../components/Footer/Footer.astro'
 import Paginator from '../../components/Paginator.astro'
 
 export async function getStaticPaths({ paginate, rss }) {
-  let featuredPosts = Astro.fetchContent('./*.md');
+  let featuredPosts = Astro.fetchContent('featured/*.md');
   featuredPosts = featuredPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
 
   rss({
@@ -22,7 +22,7 @@ export async function getStaticPaths({ paginate, rss }) {
     })),
   })
 
-    return paginate(allPosts, {
+    return paginate(featuredPosts, {
       pageSize: 21
     })
 }
