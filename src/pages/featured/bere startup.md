@@ -1,8 +1,8 @@
 ---
-title: "𝐃𝐚𝐫𝐞𝐬𝐭𝐢 𝐦𝐚𝐢 𝐝𝐚 𝐛𝐞𝐫𝐞 𝐚𝐥𝐜𝐨𝐥 𝐚𝐝 𝐮𝐧 𝐛𝐚𝐦𝐛𝐢𝐧𝐨 𝐚𝐩𝐩𝐞𝐧𝐚 𝐧𝐚𝐭𝐨? Allora perché vuoi dare alla tua startup qualcosa di cui non ha bisogno (o che magari le fa male)?"
+title: "Non dare alla tua startup qualcosa di cui non ha bisogno (o che magari le fa male)?"
 date: "2020-01-28"
 slug: "startup-bere"
-description: "Il fatto è che la vita di una startup è scandita da tre fasi (proprio come quella di un essere umano) e capire in quale fase si trova la tua ti permette di dare priorità alle cose necessarie per la sua 𝐬𝐨𝐩𝐫𝐚𝐯𝐯𝐢𝐯𝐞𝐧𝐳𝐚."
+description: "La vita di una startup è scandita da tre fasi (proprio come quella di un essere umano) e capire in quale fase si trova la tua ti permette di dare priorità alle cose necessarie per la sua sopravvivenza."
 hero: "/images/startup-drinking.svg"
 tags: ["product-management"]
 layout: "../../layouts/BlogPostLayout.astro"
