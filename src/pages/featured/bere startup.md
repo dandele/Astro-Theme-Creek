@@ -4,7 +4,7 @@ date: "2020-01-28"
 slug: "startup-bere"
 description: "La vita di una startup è scandita da tre fasi (proprio come quella di un essere umano) e capire in quale fase si trova la tua ti permette di dare priorità alle cose necessarie per la sua sopravvivenza."
 hero: "/images/startup-drinking.svg"
-tags: ["product-management"]
+tags: ["#product-management"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
 
