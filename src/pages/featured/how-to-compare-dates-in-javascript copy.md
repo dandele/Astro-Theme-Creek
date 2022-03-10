@@ -2,7 +2,7 @@
 title: "Piacere di conoscerti"
 date: "2020-01-28"
 slug: "piacere-di-conoscerti"
-description: "Piacere di conoscerti, sono Daniele D'Amico"
+description: "cosa succede quando la propria passione non coincide con il trovare il famigerato posto fisso e non ci ritroviamo nella fortunata posizione di Checco Zalone nel film “Quo vado?"
 hero: "/images/hello.svg"
 tags: ["javascript"]
 layout: "../../layouts/BlogPostLayout.astro"
