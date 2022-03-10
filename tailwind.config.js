@@ -100,7 +100,7 @@ module.exports = {
         "yellow": "#FEE715",
       },
       fontFamily: {
-        display: ["Londrina Solid", "sans-serif"],
+        display: ["Roboto Mono", "monospace"],
         body: ["Poppins", "sans-serif"],
       },
       fontSize: {
