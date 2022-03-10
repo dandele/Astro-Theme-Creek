@@ -14,14 +14,14 @@ const { post } = Astro.props;
 >
 
   <img class="squiggle" src={post.hero} alt={post.title} width="360" height="192">
-  <div class="py-6 px-8">
+  <div class="py-6 px-4">
     <h2 class="font-bold text-2xl leading-tight">
       {post.title}
     </h2>
-    <p class="text-xs text-yellow bg-black mt-4 flex items-center">
+    <p class="text-base text-yellow bg-black mt-4 flex items-center">
       {post.tags}
     </p>
-    <p class="text-xs text-black mt-4 flex items-center">
+    <p class="text-base text-black mt-4 flex items-center">
       {post.description}
     </p>
   </div>
