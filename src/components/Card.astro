@@ -13,12 +13,14 @@ const { post } = Astro.props;
   data-test="article-card"
 >
 
-  <img class="squiggle px-8" src={post.hero} alt={post.title} width="360" height="192">
+  <div width="360" height="192"> 
+    <img class="squiggle px-8" src={post.hero} alt={post.title}>
+  </div>
   <div class="py-6 px-4">
     <h2 class="font-bold text-2xl leading-tight mb-4">
       {post.title}
     </h2>
-      <span class="text-base bg-black text-yellow inline-block">
+      <span class="text-base bg-black text-yellow inline-block px-4">
         {post.tags}
       </span>
     <p class="text-base text-black mt-4 flex items-center">
