@@ -10,18 +10,6 @@ export async function getStaticPaths({ paginate, rss }) {
   let featuredPosts = Astro.fetchContent('./*.md');
   featuredPosts = featuredPosts.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
 
-  rss({
-    title: 'Creek',
-    description: 'A Theme for Astro',
-    customData: `<language>en-us</language>`,
-    items: featuredPosts.map(item => ({
-      title: item.title,
-      description: item.description,
-      link: `featured/${item.slug}`,
-      pubDate: item.date,
-    })),
-  })
-
     return paginate(featuredPosts, {
       pageSize: 21
     })
