@@ -18,9 +18,11 @@ const { post } = Astro.props;
     <h2 class="font-bold text-2xl leading-tight">
       {post.title}
     </h2>
-    <p class="text-base text-yellow bg-black mt-4 flex items-center w-24 text-center">
-      {post.tags}
-    </p>
+    <div class="bg-black px-4">
+      <p class="text-base text-yellow mt-4">
+        {post.tags}
+      </p>
+    </div>
     <p class="text-base text-black mt-4 flex items-center">
       {post.description}
     </p>
