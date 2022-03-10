@@ -101,7 +101,8 @@ module.exports = {
       },
       fontFamily: {
         display: ["Roboto Mono", "monospace"],
-        body: ["Poppins", "sans-serif"],
+        body: ["Duru Sans", "sans-serif"], 
+
       },
       fontSize: {
         "7xl": "5rem",
