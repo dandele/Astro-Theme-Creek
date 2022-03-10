@@ -37,6 +37,17 @@ featuredPosts = featuredPosts.sort((a, b) => new Date(b.date).valueOf() - new Da
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8" data-test="articles-section">
           {featuredPosts.slice(0, 6).map(p => <div class="col-span-1"><Card post={p} /></div>)}
         </section>
+  
+  <section class="flex space-x-8 justify-center text-xl pt-8 font-bold">
+      <a
+        href="/featured"
+        class="mr-8"
+        data-test="see-all-link"
+        >
+        See All<span class="squiggle">&rarr;</span>
+      </a>
+    </section>
+
       <HomeHeading3 title=(heading3) />
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8" data-test="articles-section">
           {allPosts.slice(0, 6).map(p => <div class="col-span-1"><Card post={p} /></div>)}
