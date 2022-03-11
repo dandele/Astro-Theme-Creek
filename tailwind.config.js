@@ -120,7 +120,7 @@ module.exports = {
       '7xl': '5rem', */
       },
       backgroundImage: {
-        'hero-pattern': "url('/images/Colored Shapes.svg')",
+        'hero-pattern': "url('/images/colored.svg')",
       },
     },
   },
