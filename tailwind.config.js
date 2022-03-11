@@ -119,6 +119,9 @@ module.exports = {
       '6xl': '4rem',
       '7xl': '5rem', */
       },
+      backgroundImage: {
+        'hero-pattern': "url('/images/Colored Shapes.svg')",
+      },
     },
   },
   plugins: [],
