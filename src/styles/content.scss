@@ -11,19 +11,19 @@
   }
 
   h2 {
-    @apply text-4xl font-bold leading-none mt-12 py-6 tracking-tight text-yellow;
+    @apply text-3xl font-bold leading-none mt-12 py-6 tracking-tight text-yellow;
   }
 
   h3 {
-    @apply text-xl font-bold leading-none py-6;
+    @apply text-2xl font-bold leading-none py-6;
   }
 
   h4 {
-    @apply font-bold uppercase tracking-widest leading-none py-6;
+    @apply text-xl font-bold uppercase tracking-widest leading-none py-6;
   }
 
   >p {
-    @apply text-lg leading-relaxed;
+    @apply text-base leading-relaxed;
     margin-bottom: 2em;
   }
 

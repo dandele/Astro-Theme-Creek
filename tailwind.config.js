@@ -100,14 +100,24 @@ module.exports = {
         "yellow": "#FEE715",
       },
       fontFamily: {
-        display: ["Roboto Mono", "monospace"],
-        body: ["Duru Sans", "sans-serif"], 
-
+        display: ["Space Mono", "monospace"],
+        body: ["Roboto Mono", "monospace"], 
       },
+
       fontSize: {
-        "7xl": "5rem",
-        "8xl": "6rem",
-        "9xl": "7rem",
+      'xs': '.579rem',
+      'sm': '.694rem',
+      'tiny': '.833rem',
+      'base': '1rem', //p
+      'lg': '1.2rem', //h5
+      'xl': '1.44rem', //h4
+      '2xl': '1.782rem', //h3
+      '3xl': '2.074rem', //h2
+      '4xl': '2.488rem', //h1
+    /* Grandezze ulteriori
+       '5xl': '3rem',
+      '6xl': '4rem',
+      '7xl': '5rem', */
       },
     },
   },
