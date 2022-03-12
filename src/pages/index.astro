@@ -36,25 +36,16 @@ featuredPosts = featuredPosts.sort((a, b) => new Date(b.date).valueOf() - new Da
       <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8 bg-yellow bg-second-block" data-test="articles-section">
         <HomeHeading2 title=(heading2) description=(description2) />
         {featuredPosts.slice(0, 6).map(p => <div class="col-span-1 border-black border-4 mx-4"><Card post={p} /></div>)}
-        <a href="/featured" class="mr-8 text-black text-xl font-bold text-right" data-test="see-all-link">Vuoi di più?<span class="squiggle text-black">&rarr;</span></a>
+        <a href="/featured" class="mr-8 text-black text-xl font-bold text-right underline" data-test="see-all-link">Vuoi di più?<span class="squiggle text-black">&rarr;</span></a>
       </section>
 
       <HomeHeading3 title=(heading3) />
         <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8" data-test="articles-section">
           {allPosts.slice(0, 6).map(p => <div class="col-span-1"><Card post={p} /></div>)}
+          <a href="/posts"class="mr-8 text-yellow text-xl font-bold text-right underline" data-test="see-all-link">Leggi di più<span class="squiggle">&rarr;</span></a>
         </section>
       </article>
     </main>
-    
-    <section class="flex space-x-8 justify-center text-xl pt-8 font-bold">
-      <a
-        href="/posts"
-        class="mr-8"
-        data-test="see-all-link"
-        >
-        See All<span class="squiggle">&rarr;</span>
-      </a>
-    </section>
 
     <Footer />
   </body>
