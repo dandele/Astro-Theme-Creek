@@ -1,6 +1,15 @@
 ---
 
 ---
+<script>
+const readingProgress = document.querySelector('#reading-progress-fill');
+document.addEventListener('scroll', function(e) {
+  let w = (document.body.scrollTop || document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 100;
+  readingProgress.style.setProperty('width', w + '%');
+});
+</script>
+
+
 
 <div id="reading-progress">ciaociao<div id="reading-progress-fill"></div></div>
 
@@ -19,4 +28,13 @@
     height: 5px;
     width: 0;
 }
+
+/* Theme */
+#reading-progress-fill {
+    -webkit-transition: width 100ms ease;
+    -o-transition: width 100ms ease;
+    transition: width 100ms ease;
+    background-color: #ff0000;
+}
+
 </style>
