@@ -33,7 +33,7 @@ featuredPosts = featuredPosts.sort((a, b) => new Date(b.date).valueOf() - new Da
     <main class="py-12 lg:py-20 bg-black">
       <article class="max-w-6xl mx-auto px-3">
       <HomeHeader title={title} description={description} class="hero-pattern"/>
-      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8 bg-yellow bg-second-block" data-test="articles-section">
+      <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8 bg-yellow" data-test="articles-section">
         <HomeHeading2 title=(heading2) description=(description2) />
         {featuredPosts.slice(0, 6).map(p => <div class="col-span-1 border-black border-4 mx-4"><Card post={p} /></div>)}
         <a href="/featured" class="mr-8 text-black text-xl font-bold text-right underline" data-test="see-all-link">Vuoi di più?<span class="squiggle text-black">&rarr;</span></a>
