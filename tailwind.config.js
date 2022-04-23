@@ -121,7 +121,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('/images/colored.svg')",
-        'second-block': "url('/images/pattern.svg')"
+        'second-block': "url('/images/colored.svg')"
       },
     },
   },
